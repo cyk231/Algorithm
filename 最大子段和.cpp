@@ -19,7 +19,7 @@ int main()
 	cout<<maxVal;
 	
 	// 三重循环暴力求解
-	//	cin>>n;
+//      cin>>n;
 //	for(int i=1;i<=n;i++) cin>>a[i];
 //	int maxVal=0;
 //	for(int i=1;i<=n;i++)
