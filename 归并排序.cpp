@@ -8,7 +8,7 @@ void merge(int left,int mid,int right)// 合并
 	int i=left;
 	int j=mid+1;
 	int k=left;
-	while(i<=mid&&j<=right)
+	while(i<=mid&&j<=right)// 类似于合并链表
 	{
 		if(a[i]<a[j]) b[k++]=a[i++];
 		else b[k++]=a[j++];
