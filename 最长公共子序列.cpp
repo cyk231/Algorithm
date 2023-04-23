@@ -17,5 +17,5 @@ int main()
 		else dp[i][j]=dp[i-1][j-1]+1; 
 	}
     }
-	cout<<dp[len1][len2];
+    cout<<dp[len1][len2];
 }
