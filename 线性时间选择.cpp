@@ -8,7 +8,7 @@ int a[6]={2,5,3,1,4,6};
 int Partition(int a[],int p,int r)// 划分 
 {
     int i=p;
-	  int j=r+1;
+    int j=r+1;
     int x=a[p];
     while(true)// 类似于快排的过程 
     {
@@ -24,7 +24,7 @@ int Partition(int a[],int p,int r)// 划分
 
 int RandomizedPartition(int a[],int p,int r)// 随机划分 
 {
-	  int i=p+rand()%(r-p);// i=Random(p,r) ，在p和r之间找一个随机数
+    int i=p+rand()%(r-p);// i=Random(p,r) ，在p和r之间找一个随机数
     swap(a[i],a[p]);// 交换基准 
     return Partition(a,p,r);// 划分 
 }
@@ -40,5 +40,5 @@ int RandomizedSelect(int a[],int p,int r,int k)// RandomizedSelect算法（分�
 
 int main()
 {	
-	  cout<<RandomizedSelect(a,0,n-1,k);
+    cout<<RandomizedSelect(a,0,n-1,k);
 }
