@@ -4,7 +4,7 @@ using namespace std;
 
 char a[10];// 存输入的字符 
 bool used[10];// 判断是否用过 
-char path[10]; // 本次排序 
+char path[10];// 本次排序 
 int n;// 字符数 
 
 void dfs(int k)// dfs,递归回溯 
